@@ -1,0 +1,33 @@
+.appBar {
+    background-color: #4a90e2; /* Soft blue background */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border-radius: 12px; /* Rounded corners */
+    margin-bottom: 20px;
+  }
+  
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title {
+    font-family: 'Poppins', sans-serif; /* Matching font to TaskManager */
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .logoutButton {
+    background-color: #ff5e5e;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(255, 94, 94, 0.3);
+    transition: background-color 0.3s ease;
+  }
+  
+  .logoutButton:hover {
+    background-color: #ff4a4a;
+  }
+  

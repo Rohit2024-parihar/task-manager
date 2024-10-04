@@ -1,0 +1,152 @@
+.container {
+    margin-top: 40px;
+   
+  }
+  
+  .paper {
+    padding: 20px;
+    background-color: #f7f9fc;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    color: #3f51b5;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .taskInputWrapper {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .textField {
+    flex: 1;
+  }
+  
+  .addButton {
+    background-image: linear-gradient(to right, #43cea2, #185a9d);
+    color: #fff;
+    transition: background-image 0.3s, transform 0.2s ease;
+  }
+  
+  .addButton:hover {
+    background-image: linear-gradient(to right, #42b983, #3a7bd5);
+    transform: scale(1.05);
+  }
+  
+  .selectWrapper {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .select {
+    min-width: 200px;
+  }
+  
+  .card {
+    position: relative;
+    background: linear-gradient(to bottom right, #ffffff, #f0f4f7);
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.4s;
+    padding: 16px;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  .cardCompleted {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cardContent {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .checkbox {
+    padding: 0;
+  }
+  
+  .lineThrough {
+    text-decoration: line-through;
+    color: #757575;
+  }
+  
+  .textFieldEdit {
+    flex: 1;
+  }
+  
+  .cardActions {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+  }
+  
+  .editIcon {
+    color: #1976d2;
+    transition: color 0.3s ease;
+  }
+  
+  .editIcon:hover {
+    color: #1e88e5;
+  }
+  
+  .deleteIcon {
+    color: #f44336;
+    transition: color 0.3s ease;
+  }
+  
+  .deleteIcon:hover {
+    color: #e53935;
+  }
+  
+  .saveButton {
+    background-color: #ff9800;
+    color: white;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.2s ease;
+  }
+  
+  .saveButton:hover {
+    background-color: #fb8c00;
+    transform: scale(1.05);
+  }
+  
+  .statusChip {
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 4px 10px;
+    text-transform: uppercase;
+  }
+  
+  .completedIconOverlay {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(76, 175, 80, 0.9);
+    color: white;
+    padding: 6px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media (max-width: 600px) {
+    .card {
+      margin-bottom: 20px;
+    }
+  }
+  
